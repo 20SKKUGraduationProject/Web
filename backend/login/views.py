@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 import requests, json, base64
 
 # Create your views here.
@@ -8,10 +8,10 @@ def login(request):
         username = request.POST.get('id')
         password = request.POST.get('pwd')
         if userauth(username, password) is True:
-            return HttpResponse("Success")
+            return render(request, '../templates/options.html')
         else:
-            return HttpResponse("Failure")
-        #render(request, '../templates/login/login.html')
+            context = {'message' : "ID or Password does not match. Try again"}
+            return render(request, '../templates/login.html', context)
     return render(request, '../templates/login.html')
 
 def userauth(id, pwd):
