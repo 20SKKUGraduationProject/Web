@@ -1,1 +1,18 @@
-<h1>Made to login page outside</h1>
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+    <title>SKKU Auto Timetable Generator v0.1</title>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Kingo Login</h1>
+        <h5>ID & Password corresponds to SKKU account</h5>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" name="u" placeholder="Username" required="required" />
+            <input type="password" name="p" placeholder="Password" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
+        </form>
+    </div>
+</body>
