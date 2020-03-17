@@ -8,36 +8,34 @@
 <body>
   <div class="site-wrap">
     <nav class="site-nav">
-      <div class="name">Pepper</div>
-      <ul>
-        <li class="active">
-          <a href="#">Deals</a>
-          <ul>
-            <li><a href="#0">Create New Deal</a></li>
-            <li><a href="#0">Modify Deal</a></li>
-            <li><a href="#0">Pipeline</a></li>
-          </ul>
+      <div class="name">
+        {{ userNameKo }}
+        <p>{{ username }}@g.skku.edu</p>
+      </div>
+      <div class="nav-menu">
+        <li class="active"><a href="#">시간표</a>
+          <ul><a href="#0">시간표 생성</a></ul>
+          <ul><a href="#0">시간표 관리</a></ul>
         </li>
-        <li><a href="#0">Activities</a></li>
-        <li><a href="#0">Asset Libraries</a></li>
-        <li><a href="#0">Funds</a></li>
-        <li><a href="#0">Investors</a></li>
-        <li><a href="#0">Reports</a></li>
-      </ul>
-    
+        <li><a href="#">과목 조회</a>
+          <ul><a href="#0">전공 과목 조회</a></ul>
+          <ul><a href="#0">교양 과목 조회</a></ul>
+        </li>
+        <li><a href="#0">FAQ</a></li>
+        <li><a href="#0">Feedback </a></li>
+      </div>
       <div class="note">
-        <h3>Your Monthly Report</h3>
-        <p>Get the info about all your deals, pros, cons. And build your roadmap.</p>
+        <h3>시간표 자동 생성기란?</h3>
+        <p>사용자의 정보와 선호도를 반영하여 시간표를 자동으로 만들어주는 프로그램입니다.</p>
       </div>
     </nav>
     <main>
       <header>
-        <div class="breadcrumbs"><a href="#0/">Home</a></div>
-        <h1 class="title">Pipeline</h1>
+        <h1 class="title">시간표</h1>
         <nav class="nav-tabs">
-          <a href="#0" class="active">Deals<span>14</span></a>
-          <a href="#0">Library<span>24</span></a>
-          <a href="#0">Search Library</a>
+          <a href="#0" class="active">2020-봄학기<span>14</span></a>
+          <a href="#0">2019-가을학기<span>24</span></a>
+          <a href="#0">2019-봄학기</a>
         </nav>
       </header>
 

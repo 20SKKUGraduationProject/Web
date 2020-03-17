@@ -7,8 +7,12 @@ def login(request):
     if(request.method)=='POST':
         username = request.POST.get('id')
         password = request.POST.get('pwd')
-        if userauth(username, password) is True:
-            return render(request, '../templates/options.html')
+        check = userauth(username, password)
+        if check['returnCode'] =='success':
+            context = check
+            logindata = {'username': username, 'password': password}
+            context.update(logindata)
+            return render(request, '../templates/options.html', context)
         else:
             context = {'message' : "ID or Password does not match. Try again"}
             return render(request, '../templates/login.html', context)
@@ -22,8 +26,5 @@ def userauth(id, pwd):
     headers = {'Content-Type': 'application/json'}
     login_data = {'lang': 'ko', 'userid': id, 'userpwd': b64_password}
     r = requests.post(url, headers=headers, data = json.dumps(login_data))
-    result = r.json()['returnCode']
-    if result == 'success':
-        return True
-    else:
-        return False
+    result = r.json()
+    return result
