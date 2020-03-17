@@ -12,17 +12,17 @@
         {{ userNameKo }}
         <p>{{ username }}@g.skku.edu</p>
       </div>
-      <div class="nav-menu">
-        <li class="active"><a href="#">시간표</a>
+      <div class="nav-menu" id="navmenu">
+        <li class="menus active"><a href="#">시간표</a>
           <ul><a href="#0">시간표 생성</a></ul>
           <ul><a href="#0">시간표 관리</a></ul>
         </li>
-        <li><a href="#">과목 조회</a>
+        <li class="menus"><a href="#">과목 조회</a>
           <ul><a href="#0">전공 과목 조회</a></ul>
           <ul><a href="#0">교양 과목 조회</a></ul>
         </li>
-        <li><a href="#0">FAQ</a></li>
-        <li><a href="#0">Feedback </a></li>
+        <li class="menus"><a href="#0">FAQ</a></li>
+        <li class="menus"><a href="#0">Feedback </a></li>
       </div>
       <div class="note">
         <h3>시간표 자동 생성기란?</h3>
@@ -41,4 +41,5 @@
 
     </main>
   </div>
+  <script src="{% static 'js/options.js' %}"></script>
 </body>
