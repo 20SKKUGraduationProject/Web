@@ -48,9 +48,10 @@ body {
 
 .site-nav div li a {
     display: block;
-    padding: 0.75rem 0.5rem 0.75rem 2rem;
+    padding: 0.4rem 0.5rem 0.4rem 2rem;
     position: relative;
 }
+
 .site-nav div li a:hover, .site-nav div li a:focus {
     color: #4371c5;
 }
@@ -89,7 +90,7 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 1rem;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 .note h3 {
     font-size: 0.9rem;
