@@ -2,6 +2,7 @@
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'css/options.css' %}">
   <link rel="shortcut icon" href="{% static 'images/favicon.ico' type-image/x-icon %}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <title>SKKU Auto Timetable Generator v0.1</title>
 </head>
 
@@ -13,16 +14,16 @@
         <p>{{ username }}@g.skku.edu</p>
       </div>
       <div class="nav-menu" id="navmenu">
-        <li class="menus active"><a href="#">시간표</a>
-          <ul><a href="#0">시간표 생성</a></ul>
-          <ul><a href="#0">시간표 관리</a></ul>
+        <li class="menus active"><a href="#"><i class="material-icons">today</i> 시간표</a>
+          <ul><a href="#0"><i class="material-icons">add_to_queue</i> 시간표 생성</a></ul>
+          <ul><a href="#0"><i class="material-icons">touch_app</i> 시간표 관리</a></ul>
         </li>
-        <li class="menus"><a href="#">과목 조회</a>
-          <ul><a href="#0">전공 과목 조회</a></ul>
-          <ul><a href="#0">교양 과목 조회</a></ul>
+        <li class="menus"><a href="#"><i class="material-icons">search</i> 과목 조회</a>
+          <ul><a href="#0"><i class="material-icons">school</i> 전공 과목 조회</a></ul>
+          <ul><a href="#0"><i class="material-icons">nature</i> 교양 과목 조회</a></ul>
         </li>
-        <li class="menus"><a href="#0">FAQ</a></li>
-        <li class="menus"><a href="#0">Feedback </a></li>
+        <li class="menus"><a href="#0"><i class="material-icons">help</i> FAQ</a></li>
+        <li class="menus"><a href="#0"><i class="material-icons">local_post_office</i> Feedback </a></li>
       </div>
       <div class="note">
         <h3>시간표 자동 생성기란?</h3>
