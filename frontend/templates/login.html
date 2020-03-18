@@ -8,11 +8,15 @@
 <body>
     <div class="login">
         <h1>Kingo Login</h1>
-        <h5>ID & Password corresponds to SKKU account</h5>
-        <form method="post">
+        {% if message %}
+            <h5>{{ message }}</h5>
+        {% else %}
+            <h5>ID & Password corresponds to SKKU account</h5>
+        {% endif %}
+        <form method="post" action="">
             {% csrf_token %}
-            <input type="text" name="u" placeholder="Username" required="required" />
-            <input type="password" name="p" placeholder="Password" required="required" />
+            <input type="text" name="id" placeholder="Username" required="required" />
+            <input type="password" name="pwd" placeholder="Password" required="required" />
             <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
         </form>
     </div>
