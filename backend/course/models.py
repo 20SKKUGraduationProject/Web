@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class School(models.Model):
     Hakbu = models.CharField(max_length=200)
-    Hakgwa = models.CharField(max_length=200, unique=True)
+    Hakgwa = models.CharField(max_length=200)
 
 class Course(models.Model):
     school = models.ForeignKey('School', on_delete=models.CASCADE, related_name='Hakbu_School')

@@ -73,8 +73,6 @@ faculties = driver.find_elements_by_xpath('//*[contains(@id, "cboTongHakbu.combo
 
 f_num = len(faculties)
 
-Schools=[] #School에 저장할 데이터 (course.models)
-Courses=[] #Course에 저장할 데이터 (course.models)
 
 for f in range(0, f_num):   #조정하면서 db 저장  
     #scroll 내리기
@@ -107,6 +105,11 @@ for f in range(0, f_num):   #조정하면서 db 저장
     m_num=len(majors)
             
     for m in range(0, m_num):  #조정하면서 db저장
+
+        
+        Schools=[] #School에 저장할 데이터 (course.models)
+        Courses=[] #Course에 저장할 데이터 (course.models)
+
         maj = m
         #scroll내리기
         if f==4:
@@ -116,7 +119,7 @@ for f in range(0, f_num):   #조정하면서 db 저장
                             scroll.click()
                 sleep(5)
 
-                    if m>(m_num-2):
+                if m>(m_num-2):
                     maj-=2
 
 
@@ -163,7 +166,6 @@ for f in range(0, f_num):   #조정하면서 db 저장
                     if n-length<=0:
                             length = n
                     n-=length
-
 
                     c = 0
                     while c < length:
@@ -218,16 +220,31 @@ for f in range(0, f_num):   #조정하면서 db 저장
                                 Course.append(year.text)
                         except NoSuchElementException:
                                 Course.append('')
-                        coursedate = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_11") and contains(@id, ":text")]')
-                        Course.append(coursedate.text)
-                        coursetype = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_12") and contains(@id, ":text")]')
-                        Course.append(coursetype.text)
-                        profname = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_6") and contains(@id, ":text")]')
-                        Course.append(profname.text)
-                        time = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_10") and contains(@id, ":text")]')
-                        Course.append(time.text)
-                        etc = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_7") and contains(@id, ":text")]')
-                        Course.append(etc.text)
+                        try:
+                            coursedate = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_11") and contains(@id, ":text")]')
+                            Course.append(coursedate.text)
+                        except NoSuchElementException:
+                                Course.append('')
+                        try:
+                            coursetype = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_12") and contains(@id, ":text")]')
+                            Course.append(coursetype.text)
+                        except NoSuchElementException:
+                                Course.append('')
+                        try:
+                            profname = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_6") and contains(@id, ":text")]')
+                            Course.append(profname.text)
+                        except NoSuchElementException:
+                                Course.append('')
+                        try:
+                            time = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_10") and contains(@id, ":text")]')
+                            Course.append(time.text)
+                        except NoSuchElementException:
+                                Course.append('')
+                        try:
+                            etc = driver.find_element_by_xpath('//*[contains(@id, "grdMain.body.gridrow") and contains(@id, "cell_'+str(idx[c])+'_7") and contains(@id, ":text")]')
+                            Course.append(etc.text)
+                        except NoSuchElementException:
+                                Course.append('')
 
                         Courses.append(Course)
 
@@ -337,6 +354,136 @@ for f in range(0, f_num):   #조정하면서 db 저장
                     Courses.append(Course)
                     
                     c+=1
+
+
+        #<<에브리타임 크롤링>>
+        driver2 = webdriver.Chrome("C:\\Users\\hyurs\\Downloads\\chromedriver_win32\\chromedriver.exe")
+
+        driver2.maximize_window()
+
+        driver2.get('https://everytime.kr/login?redirect=%2Flecture')
+
+        sleep(5)
+        driver2.find_element_by_name('userid').send_keys('######')
+        sleep(1)
+        driver2.find_element_by_name('password').send_keys('######')
+
+        sleep(1)
+        driver2.find_element_by_xpath('//*[@id="container"]/form/p[3]').click()
+        sleep(5)
+
+        for course in Courses:
+            name = course[4].split('\n')
+
+            #교수명, 수업명 검색 -> 평점 저장
+            courseName = name[0]
+            profName = course[10]
+
+
+            ###교수님 평점###
+            driver2.get('https://everytime.kr/lecture/search/'+profName)
+
+            sleep(2)
+
+            html = driver2.page_source
+            soup = BeautifulSoup(html, "html.parser")
+            lecs = soup.find_all('a', class_='lecture')
+            lectures = driver2.find_elements_by_xpath('//*[@class="lecture"]')
+
+            prof_rating=-1
+            total=0.0
+            cnt=0
+            for i in range(0, len(lectures)):
+                try:
+                    professors = lecs[i].find(class_='professor').get_text()
+                except AttributeError:
+                    professors=''
+
+                if professors==profName:
+                    lectures[i].click()
+                    sleep(2)
+
+                    html = driver2.page_source
+                    soup = BeautifulSoup(html, "html.parser")
+                    if float(soup.find(class_='value').get_text())!=0:
+                        total+=float(soup.find(class_='value').get_text())
+                        cnt+=1
+
+                    driver2.get('https://everytime.kr/lecture/search/'+profName)
+                    sleep(2)
+
+                    lectures = driver2.find_elements_by_xpath('//*[@class="lecture"]')
+
+            if cnt!=0:
+                prof_rating = total/cnt
+
+            course.append(round(prof_rating,2))
+
+            ###과목 평점###
+            driver2.get('https://everytime.kr/lecture/search/'+courseName)
+
+            sleep(2)
+
+            html = driver2.page_source
+            soup = BeautifulSoup(html, "html.parser")
+            lecs = soup.find_all('a', class_='lecture')
+            lectures = driver2.find_elements_by_xpath('//*[@class="lecture"]')
+
+            class_rating=-1
+            for i in range(0, len(lectures)):
+                try:
+                    professors = lecs[i].find(class_='professor').get_text()
+                except AttributeError:
+                    professors=''
+                try:
+                    names = lecs[i].find(class_='name').get_text()
+                except AttributeError:
+                    names=''
+
+                if (professors==profName)&(names==courseName):
+                    lectures[i].click()
+                    sleep(2)
+
+                    html = driver2.page_source
+                    soup = BeautifulSoup(html, "html.parser")
+                    if float(soup.find(class_='value').get_text())!=0:
+                        class_rating = float(soup.find(class_='value').get_text())
+
+                    driver2.get('https://everytime.kr/lecture/search/'+courseName)
+                    sleep(2)
+
+                    break
+            
+            course.append(round(class_rating,2))
+
+
+        driver2.quit()
+
+
+
+
+        ###저장### f_num/m_num 조정해서 1전공씩 저장 (selenium 하다가 로딩이 늦어져서 끊기는 경우 배제하기 위해서)
+
+        import os
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gradproject.settings")
+        import django
+        django.setup()
+
+        from course.models import School, Course
+
+
+
+        if __name__=='__main__':
+            
+            School(Hakbu=Schools[0], Hakgwa=Schools[1]).save()
+
+            for course in Courses:
+                c = School.objects.get(Hakbu=Schools[0], Hakgwa=Schools[1])
+                Course(school=c, Campus=course[2], courseID=course[3],
+                courseName=course[4], Credit1=course[5], Credit2=course[6], year=course[7],
+                class_day=course[8], class_type=course[9], profName=course[10], credit_time=course[11], etc=course[12],
+                prof_rating=course[13], class_rating=course[14]).save()
+
     
 
         
@@ -358,121 +505,3 @@ driver.quit()
       
 
 
-#<<에브리타임 크롤링>>
-driver = webdriver.Chrome("C:\\Users\\hyurs\\Downloads\\chromedriver_win32\\chromedriver.exe")
-
-driver.maximize_window()
-
-driver.get('https://everytime.kr/login?redirect=%2Flecture')
-
-sleep(5)
-driver.find_element_by_name('userid').send_keys('######')
-sleep(1)
-driver.find_element_by_name('password').send_keys('######')
-
-sleep(1)
-driver.find_element_by_xpath('//*[@id="container"]/form/p[3]').click()
-sleep(5)
-
-for course in Courses:
-    name = course[4].split('\n')
-
-    #교수명, 수업명 검색 -> 평점 저장
-    courseName = name[0]
-    profName = course[10]
-
-
-    ###교수님 평점###
-    driver.get('https://everytime.kr/lecture/search/'+profName)
-
-    sleep(2)
-
-    lectures = driver.find_elements_by_xpath('//*[@class="lecture"]')
-
-    prof_rating=-1
-    total=0.0
-    cnt=0
-    for i in range(0, len(lectures)):
-        lectures[i].click()
-        sleep(2)
-
-        html = driver.page_source
-        soup = BeautifulSoup(html, "html.parser")
-        if float(soup.find(class_='value').get_text())!=0:
-            total+=float(soup.find(class_='value').get_text())
-            cnt+=1
-
-        driver.get('https://everytime.kr/lecture/search/'+profName)
-        sleep(2)
-
-        lectures = driver.find_elements_by_xpath('//*[@class="lecture"]')
-
-    if cnt!=0:
-        prof_rating = total/cnt
-
-    course.append(round(prof_rating,2))
-
-    ###과목 평점###
-    driver.get('https://everytime.kr/lecture/search/'+courseName)
-
-    sleep(2)
-
-    html = driver.page_source
-    soup = BeautifulSoup(html, "html.parser")
-    lecs = soup.find_all('a', class_='lecture')
-    lectures = driver.find_elements_by_xpath('//*[@class="lecture"]')
-
-    class_rating=-1
-    for i in range(0, len(lectures)):
-        try:
-            professors = lecs[i].find(class_='professor').get_text()
-        except AttributeError:
-            professors=''
-        try:
-            names = lecs[i].find(class_='name').get_text()
-        except AttributeError:
-            names=''
-
-        if (professors==profName)&(names==courseName):
-            lectures[i].click()
-            sleep(2)
-
-            html = driver.page_source
-            soup = BeautifulSoup(html, "html.parser")
-            if float(soup.find(class_='value').get_text())!=0:
-                class_rating = float(soup.find(class_='value').get_text())
-
-            driver.get('https://everytime.kr/lecture/search/'+profName)
-            sleep(2)
-
-            break
-    
-    course.append(round(class_rating,2))
-
-
-driver.quit()
-
-
-
-
-###저장###
-
-import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "grad_project.settings")
-import django
-django.setup()
-
-from course.models import School, Course
-
-
-
-if __name__=='__main__':
-      
-    School(Hakbu=Schools[0], Hakgwa=Schools[1]).save()
-
-    for course in Courses:
-        c = School.objects.get(Hakbu=Schools[0], Hakgwa=Schools[1])
-        Course(school=c, Campus=course[2], courseID=course[3],
-        courseName=course[4], Credit1=course[5], Credit2=course[6], year=course[7],
-        class_day=course[8], class_type=course[9], profName=course[10], credit_time=course[11], etc=course[12],
-        prof_rating=course[13], class_rating=course[14]).save()
