@@ -18,6 +18,8 @@ section {
 .stages {
     font-size: 0;
     text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .stages:after {
     content: '';
@@ -70,21 +72,21 @@ section {
     transform: translateY(-1.8em);
     transition: 0.3s;
     width: 0;
-    margin-left: 5px;
+    margin-left: 60px;
     float: left;
     clear: left;
 }
 #two:checked ~ .progress span {
-    width: calc(98% / 4 * 1);
+    width: calc(88% / 3 * 1);
 }
 #three:checked ~ .progress span {
-    width: calc(98% / 4 * 2);
+    width: calc(88% / 3 * 2);
 }
 #four:checked ~ .progress span {
-    width: calc(98% / 4 * 3);
+    width: calc(88% / 3 * 3);
 }
 #five:checked ~ .progress span {
-    width: calc(98% / 4 * 4);
+    width: calc(88% / 4 * 4);
 }
 .panels div {
     display: none;
