@@ -4,12 +4,14 @@
     margin: 0;
 }
 section {
-    padding: 2em;
+    /* padding */
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
 }
 #questionnaire {
-    background-color: rgba(0, 0, 0, .8);
-    color: white;
+    background-color: #ebecee;
+    color: black;
 }
 .questionnaire h3 {
     padding-bottom: 1em;
@@ -96,7 +98,8 @@ section {
     background: #fff;
     color: black;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
-    margin: 4em;
+    width: 95%;
+    margin: 1%;
     padding: 1em;
 }
 .form input {
