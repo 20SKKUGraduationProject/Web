@@ -1,0 +1,237 @@
+.timetable_wrapper{
+    margin-top: 1%;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.day {
+  width: 18%;
+  height: 100vh;
+  float: left;
+}
+
+.day.time {
+  width: 10%;
+  min-width: 60px;
+}
+
+.day_title {
+  background-color: #34495e;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 12vh;
+}
+
+.box {
+  /* 45 mins */
+  background-color: rgba(52, 73, 94, .9);
+  font-size: 12px;
+  text-align: center;
+  line-height: calc(9vh - 1px);
+  border-bottom: 1px solid white;
+}
+
+.box:nth-child(odd) {
+  background-color: rgba(52, 73, 94, 1);
+}
+
+.box.boxBreak {
+  /* 20 mins */
+  line-height: 4vh;
+}
+
+.box.boxBreak2 {
+  /* 5 mins */
+  line-height: 1vh;
+}
+
+.box.boxLunch {
+  /* 45 mins */
+  line-height: 10vh;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8 {
+  height: 9vh;
+  display: table;
+  width: 100%;
+  /* 65min */
+}
+
+.break {
+  /* 20 min break */
+  height: calc(4vh - 2px);
+  border-top: 1px dashed lightgrey;
+  border-bottom: 1px dashed lightgrey;
+}
+
+.break2 {
+  /* 20 min break */
+  height: calc(1vh - 2px);
+  border-top: 1px dashed lightgrey;
+  border-bottom: 1px dashed lightgrey;
+}
+
+.lunch {
+  /* 30 min lunch */
+  height: calc(10vh - 2px);
+  border-top: 1px dashed lightgrey;
+  border-bottom: 1px dashed lightgrey;
+}
+
+.class {
+  background-color: magenta;
+  font-size: 2vw;
+  font-weight: 300;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.class.half {
+  height: 5.41vh;
+}
+
+.class:hover {
+  background: #555;
+  color: white
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.turquoise {
+  background-color: #1abc9c;
+}
+
+.navy {
+  background-color: #34495e;
+}
+
+.blue {
+  background-color: #3498db;
+}
+
+.purple {
+  background-color: #9b59b6;
+}
+
+.grey {
+  background-color: #bdc3c7;
+  color: #202020;
+}
+
+.gray {
+  background-color: #7f8c8d;
+}
+
+.red {
+  background-color: #e74c3c;
+}
+
+.orange {
+  background-color: #f39c12;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  color: #303030;
+}
+
+.spacing {
+  background-color: transparent;
+}
+
+
+/* Add this attribute to the element that needs a tooltip */
+
+[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+
+
+/* Hide the tooltip content by default */
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+/* Position tooltip above the element */
+
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-bottom: 10px;
+  margin-left: -75px;
+  padding: 7px 5px;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+  white-space: pre;
+}
+
+
+/* Triangle hack to make tooltip look like a speech bubble */
+
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -7px;
+  margin-bottom: 3px;
+  width: 0;
+  border-top: 7px solid black;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+
+/* Show tooltip content on hover */
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  bottom: 97%;
+  z-index: 20;
+}
+@media screen and (max-width: 599px) {
+  
+  .day {
+    width: 90%;
+    max-width: calc(100% - 60px);
+  }
+  .class {
+    font-size: 6vw;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  
+  .day {
+    width: 90%;
+    max-width: calc(100% - 60px);
+  }
+  
+}
