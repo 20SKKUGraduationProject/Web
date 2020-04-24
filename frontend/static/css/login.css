@@ -13,6 +13,7 @@
 	-ms-transition: background-position 0.1s linear; 
 	-o-transition: background-position 0.1s linear; 
 	transition: background-position 0.1s linear; 
+	background-size: cover;
 }
 
 .btn-primary, .btn-primary:hover { 
