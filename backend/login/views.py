@@ -12,7 +12,7 @@ def login(request):
             context = check
             logindata = {'username': username, 'password': password}
             context.update(logindata)
-            return render(request, '../templates/options.html', context)
+            return render(request, '../templates/dashboard.html', context)
         else:
             context = {'message' : "ID or Password does not match. Try again"}
             return render(request, '../templates/login.html', context)

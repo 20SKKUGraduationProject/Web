@@ -1,0 +1,30 @@
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/navbar.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' type-image/x-icon %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>SKKU Auto Timetable Generator v0.1</title>
+  </head>
+
+<nav class="site-nav">
+    <div class="name">
+      {{ userNameKo }}
+      <p>{{ username }}@g.skku.edu</p>
+    </div>
+    <div class="nav-menu" id="navmenu">
+      <li class="menus active"><a href="#"><i class="material-icons">today</i> 시간표</a>
+        <ul><a href="#0"><i class="material-icons">add_to_photos</i> 시간표 생성</a></ul>
+        <ul><a href="#0"><i class="material-icons">touch_app</i> 시간표 관리</a></ul>
+      </li>
+      <li class="menus"><a href="#"><i class="material-icons">search</i> 과목 조회</a>
+        <ul><a href="#0"><i class="material-icons">school</i> 전공 과목 조회</a></ul>
+        <ul><a href="#0"><i class="material-icons">nature</i> 교양 과목 조회</a></ul>
+      </li>
+      <li class="menus"><a href="#0"><i class="material-icons">help</i> FAQ</a></li>
+      <li class="menus"><a href="#0"><i class="material-icons">local_post_office</i> Feedback </a></li>
+    </div>
+    <div class="note">
+      <h3>시간표 자동 생성기란?</h3>
+      <p>사용자의 정보와 선호도를 반영하여 시간표를 자동으로 만들어주는 프로그램입니다.</p>
+    </div>
+  </nav>
