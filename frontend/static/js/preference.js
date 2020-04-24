@@ -1,309 +1,132 @@
-jQuery('.mm-prev-btn').hide();
+/* Questionnaire de dépistage auditif */
+var result = "";
+var commentaire = "";
+var j = 1;
+var y = 0;
+var response = [];
 
-var x;
-var count;
-var current;
-var percent;
-var z = [];
-
-init();
-getCurrentSlide();
-goToNext();
-goToPrev();
-getCount();
-// checkStatus();
-// buttonConfig();
-buildStatus();
-deliverStatus();
-submitData();
-goBack();
-
-function init() {
+/* passage à l'étape suivante */
+$('#next-stage').click(function() {
+  
+// Pour ne pas laisser l'utilisateur continuer avec le bouton suivant s'il n'a pas checké une réponse
+if (!$("input[name=q" + j + "]:checked").val()) {
+   /*alert('Check une réponse d\'abord !');*/
+   $('p.error').css('display','block');
+}
+else
+{
+  // Pour sélectionner le prochain "stage"
+  $('input[name="stage"]').nextAll().eq(y).prop("checked", true);
+  // On ajoute la réponse de l'utilisateur dans le tableau response
+  response["q" + j] = $("input[name=q" + j + "]:checked").val();
+  changeButtonResult();
+  console.log(response);
+  // On incrémente les variables pour y compter les "stages" et les reponses
+  if(j < 5) j++;
     
-    jQuery('.mm-survey-container .mm-survey-page').each(function() {
-
-        var item;
-        var page;
-
-        item = jQuery(this);
-        page = item.data('page');
-
-        item.addClass('mm-page-'+page);
-        //item.html(page);
-
-    });
+  y++;
+  //passe en display none pour ne pas gêner
+  $('p.error').css('display','none');
 
 }
+  
+});
 
-function getCount() {
+  /* passage à l'étape suivante */
+$('.stage').click(function() {
+  
+//y = parseInt($(this).index() - 2) ;
+//alert(y);
+j = ($(this).index());
+y = parseInt($(this).index() - 1);
 
-    count = jQuery('.mm-survey-page').length;
-    return count;
+if (parseInt($(this).index() - 1) > y) 
+{
+   //alert('Check une réponse d\'abord !');
+}
+else
+{
+  // Pour sélectionner le prochain "stage"
+  //$('input[name="stage"]').nextAll().eq(y).prop("checked", true);
 
 }
-
-function goToNext() {
-
-    jQuery('.mm-next-btn').on('click', function() {
-        goToSlide(x);
-        getCount();
-        current = x + 1;
-        var g = current/count;
-        buildProgress(g);
-        var y = (count + 1);
-        getButtons();
-        jQuery('.mm-survey-page').removeClass('active');
-        jQuery('.mm-page-'+current).addClass('active');
-        getCurrentSlide();
-        checkStatus();
-        if( jQuery('.mm-page-'+count).hasClass('active') ){
-            if( jQuery('.mm-page-'+count).hasClass('pass') ) {
-                jQuery('.mm-finish-btn').addClass('active');
-            }
-            else {
-                jQuery('.mm-page-'+count+' .mm-survery-content .mm-survey-item').on('click', function() {
-                    jQuery('.mm-finish-btn').addClass('active');
-                });
-            }
-        }
-        else {
-            jQuery('.mm-finish-btn').removeClass('active');
-            if( jQuery('.mm-page-'+current).hasClass('pass') ) {
-                jQuery('.mm-survey-container').addClass('good');
-                jQuery('.mm-survey').addClass('okay');
-            }
-            else {
-                jQuery('.mm-survey-container').removeClass('good');
-                jQuery('.mm-survey').removeClass('okay');
-            }
-        }
-        buttonConfig();
-    });
-
-}
-
-function goToPrev() {
-
-    jQuery('.mm-prev-btn').on('click', function() {
-        goToSlide(x);
-        getCount();			
-        current = (x - 1);
-        var g = current/count;
-        buildProgress(g);
-        var y = count;
-        getButtons();
-        jQuery('.mm-survey-page').removeClass('active');
-        jQuery('.mm-page-'+current).addClass('active');
-        getCurrentSlide();
-        checkStatus();
-        jQuery('.mm-finish-btn').removeClass('active');
-        if( jQuery('.mm-page-'+current).hasClass('pass') ) {
-            jQuery('.mm-survey-container').addClass('good');
-            jQuery('.mm-survey').addClass('okay');
-        }
-        else {
-            jQuery('.mm-survey-container').removeClass('good');
-            jQuery('.mm-survey').removeClass('okay');
-        }
-        buttonConfig();
-    });
-
-}
-
-function buildProgress(g) {
-
-    if(g > 1){
-        g = g - 1;
-    }
-    else if (g === 0) {
-        g = 1;
-    }
-    g = g * 100;
-    jQuery('.mm-survey-progress-bar').css({ 'width' : g+'%' });
-
-}
-
-function goToSlide(x) {
-
-    return x;
-
-}
-
-function getCurrentSlide() {
-
-    jQuery('.mm-survey-page').each(function() {
-
-        var item;
-
-        item = jQuery(this);
-
-        if( jQuery(item).hasClass('active') ) {
-            x = item.data('page');
-        }
-        else {
-            
-        }
-
-        return x;
-
-    });
-
-}
-
-function getButtons() {
-
-    if(current === 0) {
-        current = y;
-    }
-    if(current === count) {
-        jQuery('.mm-next-btn').hide();
-    }
-    else if(current === 1) {
-        jQuery('.mm-prev-btn').hide();
-    }
-    else {
-        jQuery('.mm-next-btn').show();
-        jQuery('.mm-prev-btn').show();
-    }
-
-}
-
-jQuery('.mm-survey-q li input').each(function() {
-
-    var item;
-    item = jQuery(this);
-
-    jQuery(item).on('click', function() {
-        if( jQuery('input:checked').length > 0 ) {
-            // console.log(item.val());
-            jQuery('label').parent().removeClass('active');
-            item.closest( 'li' ).addClass('active');
-        }
-        else {
-            //
-        }
-    });
 
 });
 
-percent = (x/count) * 100;
-jQuery('.mm-survey-progress-bar').css({ 'width' : percent+'%' });
+//response["q" + j] = $("input[name=q" + j + "]:checked").val();
+$('input:radio').click(function() {
+  if(($(this).attr('name')) == 'q'+ j)
+  {
+    response["q" + j] = $(this).val();
+    changeButtonResult();
+    console.log(response);
+  }
+});
 
-function checkStatus() {
-    jQuery('.mm-survery-content .mm-survey-item').on('click', function() {
-        var item;
-        item = jQuery(this);
-        item.closest('.mm-survey-page').addClass('pass');
-    });
+// Fonction qui va calculer les points
+function getPoints(params)
+{
+var r = 0;
+
+  for(var i in params)
+  {
+    if(params[i] == 'oui')
+      r++;
+  }
+  
+return r;
+  
 }
 
-function buildStatus() {
-    jQuery('.mm-survery-content .mm-survey-item').on('click', function() {
-        var item;
-        item = jQuery(this);
-        item.addClass('bingo');
-        item.closest('.mm-survey-page').addClass('pass');
-        jQuery('.mm-survey-container').addClass('good');
-    });
+function changeButtonResult()
+{
+if (getLengthObj(response) == 5) {
+    $('#next-stage').html('Valider');
+    result = getPoints(response);
+    commentaire = getResponseQuiz(result);
+      $('#next-stage').click(function() {
+      $('#result').css('display','block');
+      $('html, body').animate({
+        scrollTop: $("#result").offset().top-200
+        }, 2000);
+      $('#result p').html(commentaire);
+      });
+  }
 }
+ // Fonction qui va donner le résultat
+function getResponseQuiz(params)
+{
+var commentaire;
 
-function deliverStatus() {
-    jQuery('.mm-survey-item').on('click', function() {
-        if( jQuery('.mm-survey-container').hasClass('good') ){
-            jQuery('.mm-survey').addClass('okay');
-        }
-        else {
-            jQuery('.mm-survey').removeClass('okay');	
-        }
-        buttonConfig();
-    });
-}
+switch (params) {
+    case 0: commentaire = "Il semblerait que vous n'ayez aucun problème d'audition. Mais si toutefois vous avez un doute, vous pouvez prendre rendez-vous avec notre audioprothésiste pour un bilan complet et gratuit.";
+    break;
 
-function lastPage() {
-    if( jQuery('.mm-next-btn').hasClass('cool') ) {
-        alert('cool');
+    case 1: 
+
+    case 2: commentaire = "Au vu de vos résultats, il semblerait que vous ne rencontriez pas de problème majeur dans la vie courante, mais ce questionnaire ne remplace en aucun cas un dépistage auditif. Nous vous conseillons donc de venir voir notre audioprothésiste pour un bilan complet et gratuit.";
+    break;
+
+    case 3: 
+
+    case 4: commentaire = "Il semblerait que vous rencontriez des difficultés dans certains cas de la vie courante, nous vous conseillons de venir faire un bilan auditif gratuit auprès de notre audioprothésiste.";
+    break;
+
+    case 5: commentaire = "Au vu de vos résultats, il semblerait que vous rencontriez des difficultés dans la plupart des situations de la vie courante. Nous vous recommandons fortement de faire un bilan auditif gratuit auprès de notre audioprothésiste car ce questionnaire ne remplace en aucun cas un vrai bilan.";
+    break;
+
+    default:  commentaire = "Voulez-vous refaire le test ?";
+  
     }
+  
+  return commentaire;
 }
-
-function buttonConfig() {
-    if( jQuery('.mm-survey').hasClass('okay') ) {
-        jQuery('.mm-next-btn button').prop('disabled', false);
-    }
-    else {
-        jQuery('.mm-next-btn button').prop('disabled', true);
-    }
-}
-
-function submitData() {
-    jQuery('.mm-finish-btn').on('click', function() {
-        collectData();
-        jQuery('.mm-survey-bottom').slideUp();
-        jQuery('.mm-survey-results').slideDown();
-    });
-}
-
-function collectData() {
-    
-    var map = {};
-    var ax = ['0','red','mercedes','3.14','3'];
-    var answer = '';
-    var total = 0;
-    var ttl = 0;
-    var g;
-    var c = 0;
-
-    jQuery('.mm-survey-item input:checked').each(function(index, val) {
-        var item;
-        var data;
-        var name;
-        var n;
-
-        item = jQuery(this);
-        data = item.val();
-        name = item.data('item');
-        n = parseInt(data);
-        total += n;
-
-        map[name] = data;
-
-    });
-
-    jQuery('.mm-survey-results-container .mm-survey-results-list').html('');
-
-    for (i = 1; i <= count; i++) {
-
-        var t = {};
-        var m = {};
-        answer += map[i] + '<br>';
-        
-        if( map[i] === ax[i]) {
-            g = map[i];
-            p = 'correct';
-            c = 1;
-        }
-        else {
-            g = map[i];
-            p = 'incorrect';
-            c = 0;
-        }
-
-        jQuery('.mm-survey-results-list').append('<li class="mm-survey-results-item '+p+'"><span class="mm-item-number">'+i+'</span><span class="mm-item-info">'+g+' - '+p+'</span></li>');
-
-        m[i] = c;
-        ttl += m[i];
-
-    }
-
-    var results;
-    results = ( ( ttl / count ) * 100 ).toFixed(0);
-
-    jQuery('.mm-survey-results-score').html( results + '%' );
-
-}
-
-function goBack() {
-    jQuery('.mm-back-btn').on('click', function() {
-        jQuery('.mm-survey-bottom').slideDown();
-        jQuery('.mm-survey-results').slideUp();
-    });
+  
+function getLengthObj(array)
+{
+ var size = 0;
+for (key in array) {
+      if (array.hasOwnProperty(key)) size++;
+  }
+  return size;
 }
