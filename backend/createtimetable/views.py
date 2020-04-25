@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 import requests, json, base64
+from course.models import Course
+from queue import PriorityQueue
 
 # Create your views here.
 def createtimetable(request):
@@ -28,7 +30,12 @@ def resulttimetable(request):
         credit6=request.POST.get('credit6')
         credit7=request.POST.get('credit7')
         credit=[credit0,credit1,credit2,credit3,credit4,credit5,credit6,credit7]
-        context = {'username': username, 'userNameKo': userNameKo,
-         'course_priority':course_priority, 'meal_priority':meal_priority,
-         'nontime':nontime, 'credit':credit}
+
+        #priority 계산
+        courses = Course.objects.filter(school="83")
+        pq = PriorityQueue()
+        for c in courses:
+            print(c.class_day)
+
+        context = {'username': username, 'userNameKo': userNameKo}
         return render(request, '../templates/dashboard.html', context)
