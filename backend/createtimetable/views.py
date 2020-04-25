@@ -11,3 +11,24 @@ def createtimetable(request):
         return render(request, '../templates/createtimetable.html', context)
 
     return render(request, '../templates/createtimetable.html')
+
+def resulttimetable(request):
+    if(request.method)=='POST':
+        username = request.session.get('username')
+        userNameKo = request.session.get('userNameKo')
+        course_priority = request.POST.get('q1')
+        meal_priority = request.POST.get('q2')
+        nontime = request.POST.getlist('nontime')
+        credit0=request.POST.get('credit0')
+        credit1=request.POST.get('credit1')
+        credit2=request.POST.get('credit2')
+        credit3=request.POST.get('credit3')
+        credit4=request.POST.get('credit4')
+        credit5=request.POST.get('credit5')
+        credit6=request.POST.get('credit6')
+        credit7=request.POST.get('credit7')
+        credit=[credit0,credit1,credit2,credit3,credit4,credit5,credit6,credit7]
+        context = {'username': username, 'userNameKo': userNameKo,
+         'course_priority':course_priority, 'meal_priority':meal_priority,
+         'nontime':nontime, 'credit':credit}
+        return render(request, '../templates/dashboard.html', context)

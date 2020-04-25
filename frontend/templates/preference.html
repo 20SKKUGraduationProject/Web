@@ -9,65 +9,68 @@
             <div class="row gutter">
                 <div data-scrollreveal="enter bottom after 0s over 2s">
                 </div>
-                <div class="form" data-scrollreveal="enter bottom after 0s over 1s">    
-                    <input class="stage" id="one" type="radio" name="stage" checked="checked" />
-                    <input class="stage" id="two" type="radio" name="stage" />
-                    <input class="stage" id="three" type="radio" name="stage" />
-                    <input class="stage" id="four" type="radio" name="stage" />
-                    <h3>시간표를 짤 때 </h3>
-    
-                    <div class="stages">
-                        <label for="one">1</label>
-                        <label for="two">2</label>
-                        <label for="three">3</label>
-                        <label for="four">4</label>
+                <form method="post" action="result/">
+                    {% csrf_token %}
+                    <div class="form" data-scrollreveal="enter bottom after 0s over 1s">    
+                        <input class="stage" id="one" type="radio" name="stage" checked="checked" />
+                        <input class="stage" id="two" type="radio" name="stage" />
+                        <input class="stage" id="three" type="radio" name="stage" />
+                        <input class="stage" id="four" type="radio" name="stage" />
+                        <h3>시간표를 짤 때 </h3>
+        
+                        <div class="stages">
+                            <label for="one">1</label>
+                            <label for="two">2</label>
+                            <label for="three">3</label>
+                            <label for="four">4</label>
+                        </div>
+        
+                        <span class="progress"><span></span></span>
+        
+                        <div class="panels" data-scrollreveal="enter bottom after 0s over 0.5s">
+                            <div data-panel="one">
+                                <p><h3>강의 평점을 우선시한다.</h3></p>
+                                <span>
+                                    <input type="radio" name="q1" value="1" id="one-oui" />
+                                    <label for="one-oui">전혀 아니다</label>
+                                    <input type="radio" name="q1" value="2" id="one-non" />
+                                    <label for="one-oui">조금 아니다</label>
+                                    <input type="radio" name="q1" value="3" id="one-non" checked/>
+                                    <label for="one-oui">그저 그렇다</label>
+                                    <input type="radio" name="q1" value="4" id="one-non" />
+                                    <label for="one-oui">조금 그렇다</label>
+                                    <input type="radio" name="q1" value="5" id="one-non" />
+                                    <label for="one-oui">매우 그렇다</label>
+                                </span>
+                            </div>
+                            <div data-panel="two">
+                                <p><h3>식사시간에 강의가 없는 것을 우선시한다.</h3></p>
+                                <span>
+                                    <input type="radio" name="q2" value="1" id="two-oui" />
+                                    <label for="two-oui">전혀 아니다</label>
+                                    <input type="radio" name="q2" value="2" id="two-non" />
+                                    <label for="two-non">조금 아니다</label>
+                                    <input type="radio" name="q2" value="3" id="two-non" checked/>
+                                    <label for="two-non">그저 그렇다</label>
+                                    <input type="radio" name="q2" value="4" id="two-non" />
+                                    <label for="two-non">조금 그렇다</label>
+                                    <input type="radio" name="q2" value="5" id="two-non" />
+                                    <label for="two-non">매우 그렇다</label>
+                                </span>
+                            </div>
+                            <div data-panel="three">
+                                <p><h3>이 시간에는 강의가 없어야 한다</h3></p>
+                                {% include "emptytimetable.html" %}
+                            </div>
+                            <div data-panel="four">
+                                <p><h3>학점의 마지노선은 다음과 같다.</h3></p>
+                                {% include "cardbox.html" %}
+                            </div>
+                        </div>
+                        <p class="error">Veuillez répondre Oui ou Non</p>
+                        <button type=submit id="next-stage">시간표 생성하기</button>
                     </div>
-    
-                    <span class="progress"><span></span></span>
-    
-                    <div class="panels" data-scrollreveal="enter bottom after 0s over 0.5s">
-                        <div data-panel="one">
-                            <p><h3>강의 평점을 우선시한다.</h3></p>
-                            <span>
-                                <input type="radio" name="q1" value="oui" id="one-oui" />
-                                <label for="one-oui">전혀 아니다</label>
-                                <input type="radio" name="q1" value="non" id="one-non" />
-                                <label for="one-oui">조금 아니다</label>
-                                <input type="radio" name="q1" value="non" id="one-non" />
-                                <label for="one-oui">그저 그렇다</label>
-                                <input type="radio" name="q1" value="non" id="one-non" />
-                                <label for="one-oui">조금 그렇다</label>
-                                <input type="radio" name="q1" value="non" id="one-non" />
-                                <label for="one-oui">매우 그렇다</label>
-                            </span>
-                        </div>
-                        <div data-panel="two">
-                            <p><h3>식사시간에 강의가 없는 것을 우선시한다.</h3></p>
-                            <span>
-                                <input type="radio" name="q2" value="oui" id="two-oui" />
-                                <label for="two-oui">전혀 아니다</label>
-                                <input type="radio" name="q2" value="non" id="two-non" />
-                                <label for="two-non">조금 아니다</label>
-                                <input type="radio" name="q2" value="non" id="two-non" />
-                                <label for="two-non">그저 그렇다</label>
-                                <input type="radio" name="q2" value="non" id="two-non" />
-                                <label for="two-non">조금 그렇다</label>
-                                <input type="radio" name="q2" value="non" id="two-non" />
-                                <label for="two-non">매우 그렇다</label>
-                            </span>
-                        </div>
-                        <div data-panel="three">
-                            <p><h3>이 시간에는 강의가 없어야 한다</h3></p>
-                            {% include "emptytimetable.html" %}
-                        </div>
-                        <div data-panel="four">
-                            <p><h3>학점의 마지노선은 다음과 같다.</h3></p>
-                            {% include "cardbox.html" %}
-                        </div>
-                    </div>
-                    <p class="error">Veuillez répondre Oui ou Non</p>
-                    <button id="next-stage">시간표 생성하기</button>
-                </div>
+                </form>
                 <div id="result">
                     <h3>Résultat de votre questionnaire</h3>
                     <p data-scrollreveal="enter bottom after 1s over 1s"></p>
