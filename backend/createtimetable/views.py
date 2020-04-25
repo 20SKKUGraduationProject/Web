@@ -60,9 +60,6 @@ def resulttimetable(request):
                         if ((start_time <=nt_start_time)&(nt_start_time<end_time))|((start_time<nt_end_time)&(nt_end_time<=end_time)):
                             timevalid=0 
 
-            print(days)
-            print(mealtime)
-            print(timevalid)
             class_rating = (float)(c.class_rating)
             prof_rating = (float)(c.prof_rating)
             if class_rating==-1:
@@ -71,8 +68,20 @@ def resulttimetable(request):
                 prof_rating=2.5
 
             priority = ((((class_rating+prof_rating)/2)**int(course_priority))/((mealtime+1)**int(meal_priority)))*timevalid
-            print(priority)
+            pq.put(Course_pr(priority, c))
 
+        while not pq.empty():
+            temp = pq.get()
+            #print(temp.pr)
+            #print(temp.course)
 
         context = {'username': username, 'userNameKo': userNameKo}
         return render(request, '../templates/dashboard.html', context)
+
+class Course_pr:
+    def __init__(self, pr, course):
+        self.pr = pr
+        self.course = course
+
+    def __lt__(self, other):
+        return self.pr > other.pr
