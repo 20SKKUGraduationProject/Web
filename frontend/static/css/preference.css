@@ -75,6 +75,7 @@ section {
     margin-left: 60px;
     float: left;
     clear: left;
+    margin-top: -10px;
 }
 #two:checked ~ .progress span {
     width: calc(88% / 3 * 1);

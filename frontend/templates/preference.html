@@ -62,24 +62,7 @@
                         </div>
                         <div data-panel="four">
                             <p><h3>학점의 마지노선은 다음과 같다.</h3></p>
-                            <div class="card"></div>
-                            <div class="card card-1"></div>
-                            <div class="card card-2"></div>
-                            <div class="card card-3"></div>
-                            <div class="card card-4"></div>
-                            <div class="card card-5"></div>
-                            <span>
-                                <input type="radio" name="q4" value="oui" id="four-oui" />
-                                <label for="four-oui">
-                                    Oui
-                                </label>
-                            </span>
-                            <span>
-                                <input type="radio" name="q4" value="non" id="four-non" />
-                                <label for="four-non">
-                                    Non
-                                </label>
-                            </span>
+                            {% include "cardbox.html" %}
                         </div>
                     </div>
                     <p class="error">Veuillez répondre Oui ou Non</p>
