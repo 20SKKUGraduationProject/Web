@@ -4,6 +4,7 @@ import requests, json, base64
 
 # Create your views here.
 def login(request):
+    context=[]
     if(request.method)=='POST':
         username = request.POST.get('id')
         password = request.POST.get('pwd')
@@ -12,11 +13,14 @@ def login(request):
             context = check
             logindata = {'username': username, 'password': password}
             context.update(logindata)
+            request.session['userNameKo']=context['userNameKo']
+            request.session['username']=context['username']
             return render(request, '../templates/dashboard.html', context)
         else:
             context = {'message' : "ID or Password does not match. Try again"}
             return render(request, '../templates/login.html', context)
     return render(request, '../templates/login.html')
+
 
 def userauth(id, pwd):
     password_bytes = pwd.encode('ascii')
