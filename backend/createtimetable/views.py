@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 import requests, json, base64
 from course.models import Course
 from queue import PriorityQueue
+import datetime
 
 # Create your views here.
 def createtimetable(request):
@@ -35,7 +36,43 @@ def resulttimetable(request):
         courses = Course.objects.filter(school="83")
         pq = PriorityQueue()
         for c in courses:
-            print(c.class_day)
+            mealtime=1
+            timevalid=1
+
+            classes = c.class_day.split(',')
+            days=[]
+            for cl in classes:
+                d = cl.split('【')
+                if d[0]!="미지정":
+                    weekday = d[0][:1]
+                    times = d[0][1:].split('-')
+                    start_time = datetime.datetime.strptime(times[0], "%H:%M")
+                    end_time=datetime.datetime.strptime(times[1], "%H:%M")
+                    days.append([weekday, start_time, end_time])
+
+                    if ((start_time<=datetime.datetime.strptime("12:00", "%H:%M"))&(datetime.datetime.strptime("12:00", "%H:%M")<end_time))|((start_time<datetime.datetime.strptime("13:00", "%H:%M"))&(datetime.datetime.strptime("13:00", "%H:%M")<=end_time))|((start_time<=datetime.datetime.strptime("18:00", "%H:%M"))&(datetime.datetime.strptime("18:00", "%H:%M")<end_time))|((start_time<datetime.datetime.strptime("19:00", "%H:%M"))&(datetime.datetime.strptime("19:00", "%H:%M")<=end_time)):
+                        mealtime=0
+
+                    for nt in nontime:
+                        nt_weekday = nt[:1]
+                        nt_start_time = datetime.datetime.strptime(nt[1:], "%H:%M")
+                        nt_end_time = nt_start_time + datetime.timedelta(hours=1)
+                        if ((start_time <=nt_start_time)&(nt_start_time<end_time))|((start_time<nt_end_time)&(nt_end_time<=end_time)):
+                            timevalid=0 
+
+            print(days)
+            print(mealtime)
+            print(timevalid)
+            class_rating = (float)(c.class_rating)
+            prof_rating = (float)(c.prof_rating)
+            if class_rating==-1:
+                class_rating=2.5
+            if prof_rating==-1:
+                prof_rating=2.5
+
+            priority = ((((class_rating+prof_rating)/2)**int(course_priority))/((mealtime+1)**int(meal_priority)))*timevalid
+            print(priority)
+
 
         context = {'username': username, 'userNameKo': userNameKo}
         return render(request, '../templates/dashboard.html', context)
