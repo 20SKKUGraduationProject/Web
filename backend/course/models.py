@@ -23,14 +23,3 @@ class Course(models.Model):
 
     def __str__(self):
         return self.courseID
-
-class Student(models.Model):
-    StudentID = models.IntegerField()
-    year = models.IntegerField(null=True)
-    Hakbu = models.CharField(max_length=200)
-    Hakgwa = models.CharField(max_length=200)
-    WantCredit1 = models.IntegerField(default=0)
-    WantCredit2 = models.IntegerField(default=0)
-
-    def __str__(self):
-        return self.StudentID
