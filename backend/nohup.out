@@ -1,0 +1,13 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[26/Apr/2020 10:21:27] "GET / HTTP/1.1" 200 833
+[26/Apr/2020 10:21:27] "POST /createtimetable/result/ HTTP/1.1" 200 5402
+[26/Apr/2020 10:21:27] "POST /createtimetable/result/ HTTP/1.1" 200 5402
+[26/Apr/2020 10:21:27] "POST /createtimetable/result/ HTTP/1.1" 200 5402
+[26/Apr/2020 10:21:27] "GET /static/css/navbar.css HTTP/1.1" 304 0
+[26/Apr/2020 10:21:27] "GET /static/css/timetable.css HTTP/1.1" 304 0
+[26/Apr/2020 10:21:27] "GET /static/js/timetable.js HTTP/1.1" 304 0
+[26/Apr/2020 10:21:27] "GET /static/js/navbar.js HTTP/1.1" 304 0
+[26/Apr/2020 10:21:27] "GET /static/images/favicon.ico HTTP/1.1" 200 1150
