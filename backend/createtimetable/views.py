@@ -30,7 +30,8 @@ def resulttimetable(request):
         credit5=request.POST.get('credit5')
         credit6=request.POST.get('credit6')
         credit7=request.POST.get('credit7')
-        credit=[credit0,credit1,credit2,credit3,credit4,credit5,credit6,credit7]
+        credit8=request.POST.get('credit8')
+        credit=[int(credit0),int(credit1),int(credit2),int(credit3),int(credit4),int(credit5),int(credit6),int(credit7),int(credit8)]
 
         #priority 계산
         courses = Course.objects.filter(school="83")
@@ -40,7 +41,7 @@ def resulttimetable(request):
             timevalid=1
 
             classes = c.class_day.split(',')
-            days=[]
+
             for cl in classes:
                 d = cl.split('【')
                 if d[0]!="미지정":
@@ -48,7 +49,6 @@ def resulttimetable(request):
                     times = d[0][1:].split('-')
                     start_time = datetime.datetime.strptime(times[0], "%H:%M")
                     end_time=datetime.datetime.strptime(times[1], "%H:%M")
-                    days.append([weekday, start_time, end_time])
 
                     if ((start_time<=datetime.datetime.strptime("12:00", "%H:%M"))&(datetime.datetime.strptime("12:00", "%H:%M")<end_time))|((start_time<datetime.datetime.strptime("13:00", "%H:%M"))&(datetime.datetime.strptime("13:00", "%H:%M")<=end_time))|((start_time<=datetime.datetime.strptime("18:00", "%H:%M"))&(datetime.datetime.strptime("18:00", "%H:%M")<end_time))|((start_time<datetime.datetime.strptime("19:00", "%H:%M"))&(datetime.datetime.strptime("19:00", "%H:%M")<=end_time)):
                         mealtime=0
@@ -57,7 +57,7 @@ def resulttimetable(request):
                         nt_weekday = nt[:1]
                         nt_start_time = datetime.datetime.strptime(nt[1:], "%H:%M")
                         nt_end_time = nt_start_time + datetime.timedelta(hours=1)
-                        if ((start_time <=nt_start_time)&(nt_start_time<end_time))|((start_time<nt_end_time)&(nt_end_time<=end_time)):
+                        if (weekday==nt_weekday)&(((start_time <=nt_start_time)&(nt_start_time<end_time))|((start_time<=nt_start_time)&(nt_end_time<=end_time))|((start_time<nt_end_time)&(nt_end_time<=end_time))):
                             timevalid=0 
 
             class_rating = (float)(c.class_rating)
@@ -70,13 +70,84 @@ def resulttimetable(request):
             priority = ((((class_rating+prof_rating)/2)**int(course_priority))/((mealtime+1)**int(meal_priority)))*timevalid
             pq.put(Course_pr(priority, c))
 
+
+        result=[] #결과값 저장
         while not pq.empty():
             temp = pq.get()
-            #print(temp.pr)
-            #print(temp.course)
+            classes = temp.course.class_day.split(',')
+            days=[]
+            for cl in classes:
+                d = cl.split('【')
+                if d[0]!="미지정":
+                    weekday = d[0][:1]
+                    times = d[0][1:].split('-')
+                    start_time = datetime.datetime.strptime(times[0], "%H:%M")
+                    end_time=datetime.datetime.strptime(times[1], "%H:%M")
+                    days.append([weekday, start_time, end_time])
+                
+            exist=False
+            for r in result:
+                #이미 해당하는 과목 들어가있는지 확인
+                if temp.course.courseName==r.courseName:
+                    exist=True
+                    break
+
+                #겹치는 시간이 있는지 확인
+                r_classes = r.class_day.split(',')
+                r_days=[]
+                for r_cl in r_classes:
+                    d = r_cl.split('【')
+                    if d[0]!="미지정":
+                        r_weekday = d[0][:1]
+                        r_times = d[0][1:].split('-')
+                        r_start_time = datetime.datetime.strptime(times[0], "%H:%M")
+                        r_end_time=datetime.datetime.strptime(times[1], "%H:%M")
+                        r_days.append([r_weekday, r_start_time, r_end_time])
+
+                for d in days:
+                    for r_d in r_days:
+                        if (d[0]==r_d[0])&(((d[1] <=r_d[1])&(r_d[1]<d[2]))|((d[1]<=r_d[1])&(r_d[2]<=d[2]))|((d[1]<r_d[2])&(r_d[2]<=d[2]))):
+                            exist=True
+                            break
+                    if exist==True:
+                        break
+
+                if exist==True:
+                    break
+
+            
+            if exist==False:
+                #creditvalid확인
+                cr = temp.course.credit_time.split('(')
+                if temp.course.Credit2=="전공핵심":
+                    if credit[0]-int(cr[0])>=0:
+                        credit[0]-=int(cr[0])
+                        result.append(temp.course)
+                elif temp.course.Credit2=="전공일반":
+                    if credit[1]-int(cr[0])>=0:
+                        credit[1]-=int(cr[0])
+                        result.append(temp.course)
+                elif temp.course.Credit2=="실험실습":
+                    if credit[2]-int(cr[0])>=0:
+                        credit[2]-=int(cr[0])
+                        result.append(temp.course)
+                '''
+                elif temp.course.Credit2=="인문/사회":
+                elif temp.course.Credit2=="과학/기술":
+                elif temp.course.Credit2=="글로벌":
+                elif temp.course.Credit2=="인성":
+                elif temp.course.Credit2=="리더십":
+                elif temp.course.Credit2=="일반교양":
+                
+        for r in result:
+            print(r.courseName)
+            print(r.Credit2)
+            print(r.class_day)
+            '''
 
         context = {'username': username, 'userNameKo': userNameKo}
         return render(request, '../templates/dashboard.html', context)
+
 
 class Course_pr:
     def __init__(self, pr, course):
