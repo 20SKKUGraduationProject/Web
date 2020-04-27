@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 import requests, json, base64
 from course.models import Course
+from .models import TimeTable
 from queue import PriorityQueue
 import datetime
 
@@ -138,12 +139,19 @@ def resulttimetable(request):
                 elif temp.course.Credit2=="인성":
                 elif temp.course.Credit2=="리더십":
                 elif temp.course.Credit2=="일반교양":
-                
+                '''
+        
+        all_courses=""
         for r in result:
-            print(r.courseName)
-            print(r.Credit2)
-            print(r.class_day)
-            '''
+            all_courses+=r.courseID+" "
+            
+        timetable = TimeTable(
+            studentID=username,
+            studentName=userNameKo,
+            courses=all_courses,
+        )
+
+        timetable.save()
 
         context = {'username': username, 'userNameKo': userNameKo}
         return render(request, '../templates/dashboard.html', context)
