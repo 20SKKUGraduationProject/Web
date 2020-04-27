@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 import requests, json, base64
 
 # Create your views here.
+
 def login(request):
     context=[]
     if(request.method)=='POST':
@@ -32,3 +33,9 @@ def userauth(id, pwd):
     r = requests.post(url, headers=headers, data = json.dumps(login_data))
     result = r.json()
     return result
+
+def dashboard(request):
+    username = request.session.get('username')
+    userNameKo = request.session.get('userNameKo')
+    context = {'username': username, 'userNameKo': userNameKo}
+    return render(request, '../templates/dashboard.html', context)
