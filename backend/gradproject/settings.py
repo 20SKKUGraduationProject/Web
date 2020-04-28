@@ -25,7 +25,12 @@ SECRET_KEY = '_hvv%03vyrg^km1zdx0)5zs_a&(kpc!!fg^v4y8)2gd$wo7a#('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-13-209-69-237.ap-northeast-2.compute.amazonaws.com', '127.0.0.1']
+ALLOWED_HOSTS = [
+        'ec2-13-209-69-237.ap-northeast-2.compute.amazonaws.com', 
+        '127.0.0.1',
+        'www.skkutimetable.com',
+        'skkutimetable.com',
+        ]
 
 
 # Application definition
