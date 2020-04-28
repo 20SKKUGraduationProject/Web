@@ -38,6 +38,7 @@ def resulttimetable(request):
         courses = Course.objects.filter(school="83")
         pq = PriorityQueue()
         for c in courses:
+            print(c.courseID+" "+c.courseName)
             mealtime=1
             timevalid=1
 
@@ -71,7 +72,7 @@ def resulttimetable(request):
             priority = ((((class_rating+prof_rating)/2)**int(course_priority))/((mealtime+1)**int(meal_priority)))*timevalid
             pq.put(Course_pr(priority, c))
 
-
+        print("**********")
         result=[] #결과값 저장
         while not pq.empty():
             temp = pq.get()
@@ -144,14 +145,17 @@ def resulttimetable(request):
         all_courses=""
         for r in result:
             all_courses+=r.courseID+" "
-            
+
         timetable = TimeTable(
             studentID=username,
             studentName=userNameKo,
             courses=all_courses,
         )
-
-        timetable.save()
+        print(timetable.courses)
+        if all_courses=="":
+            print("empty courses!")
+        else:
+            timetable.save()
 
         context = {'username': username, 'userNameKo': userNameKo}
         return render(request, '../templates/dashboard.html', context)
