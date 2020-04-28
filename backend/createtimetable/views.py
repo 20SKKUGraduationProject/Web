@@ -156,8 +156,8 @@ def resulttimetable(request):
             timetable.save()
 
         context = {'username': username, 'userNameKo': userNameKo}
-        return render(request, '../templates/dashboard.html', context)
 
+        return HttpResponseRedirect('../../', context)
 
 class Course_pr:
     def __init__(self, pr, course):
