@@ -46,7 +46,7 @@ html, body { height: 100%; margin: 0; }
   height: 8vh; /*90min*/
   line-height: 6vh;
   background-color: magenta;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 400;
   padding-left: 10px;
 }
