@@ -20,16 +20,16 @@ def login(request):
             context.update(logindata)
             request.session['userNameKo']=context['userNameKo']
             request.session['username']=context['username']
-            return render(request, '../templates/dashboard.html', context)
+            return HttpResponseRedirect('dashboard/', context)#render(request, '../templates/dashboard.html', context)
         else:
             context = {'message' : "ID or Password does not match. Try again"}
-            return render(request, '../templates/login.html', context)
+            return HttpResponseRedirect('')#render(request, '../templates/login.html', context)
     else:
         username = request.session.get('username')
         userNameKo = request.session.get('userNameKo')
         context = {'userNameKo':userNameKo, 'username':username}
-        if username!="":
-            return render(request, '../templates/dashboard.html', context)
+        if username!=None:
+            return HttpResponseRedirect('dashboard/', context)
     return render(request, '../templates/login.html')
 
 
@@ -45,11 +45,15 @@ def userauth(id, pwd):
     return result
 
 def dashboard(request):
-    username = request.session.get('username')
-    userNameKo = request.session.get('userNameKo')
-    week_courses = loadTimeTable(username)
-    context = {'username': username, 'userNameKo': userNameKo}
-    return render(request, '../templates/dashboard.html', context)
+    try:
+        username = request.session.get('username')
+        userNameKo = request.session.get('userNameKo')
+        print("dashboard activated!")
+        week_courses = loadTimeTable(username)
+        context = {'username': username, 'userNameKo': userNameKo}
+        return render(request, '../templates/dashboard.html', context)
+    except:
+        return HttpResponseRedirect('../') 
 
 def loadTimeTable(username):
     timetable = TimeTable.objects.filter(studentID=username).last()
@@ -61,6 +65,7 @@ def loadTimeTable(username):
         
         if course.count()!=0:
             course = course.first()
+            print(course.courseID+" "+course.courseName)
 
             classes = course.class_day.split(',')
             for cl in classes:

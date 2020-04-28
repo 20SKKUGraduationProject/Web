@@ -38,7 +38,6 @@ def resulttimetable(request):
         courses = Course.objects.filter(school="83")
         pq = PriorityQueue()
         for c in courses:
-            print(c.courseID+" "+c.courseName)
             mealtime=1
             timevalid=1
 
@@ -72,7 +71,6 @@ def resulttimetable(request):
             priority = ((((class_rating+prof_rating)/2)**int(course_priority))/((mealtime+1)**int(meal_priority)))*timevalid
             pq.put(Course_pr(priority, c))
 
-        print("**********")
         result=[] #결과값 저장
         while not pq.empty():
             temp = pq.get()
