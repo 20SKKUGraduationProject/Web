@@ -4,7 +4,7 @@
 </head>
 
 <body>
-    <div class="timetable_wrapper">
+    <div class="timetable_wrapper" onclick="match({{ timetable }})">
         <div class="day time">
             <div class="day_title">Time</div>
             <div class="hour">9:00</div>
@@ -64,6 +64,7 @@
             <div class="class b15 navy" data-tooltip="Physics">2PHY1 [F2]</div>
         </div>
     </div>
+    <script src="{% static 'js/timetable.js' %}"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="{% static 'js/timetable.js' %}"></script>
 </body>

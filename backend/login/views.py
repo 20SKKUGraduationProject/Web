@@ -50,6 +50,7 @@ def dashboard(request):
         userNameKo = request.session.get('userNameKo')
         print("dashboard activated!")
         week_courses = loadTimeTable(username)
+        print(week_courses)
         context = {'username': username, 'userNameKo': userNameKo, "timetable": week_courses}
         return render(request, '../templates/dashboard.html', context)
     except:
