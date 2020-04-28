@@ -24,6 +24,12 @@ def login(request):
         else:
             context = {'message' : "ID or Password does not match. Try again"}
             return render(request, '../templates/login.html', context)
+    else:
+        username = request.session.get('username')
+        userNameKo = request.session.get('userNameKo')
+        context = {'userNameKo':userNameKo, 'username':username}
+        if username!="":
+            return render(request, '../templates/dashboard.html', context)
     return render(request, '../templates/login.html')
 
 
