@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 
-html, body { height: 100%; margin: 0; }
+html, body { 
+  height: 100%; 
+  margin: 0; 
+}
 
 .timetable_wrapper{
     margin-top: 10px;
@@ -51,11 +54,16 @@ html, body { height: 100%; margin: 0; }
   padding-left: 10px;
 }
 
-.class.short { height: 7.5vh; line-height: 7.5vh; } /* 45min class */
-.class.b15 { margin-top: 2.5vh; } /* after 15 min break */
-.class.b45 { margin-top: 7.5vh; } /* after 45 min break */
-.class.b90 { margin-top: 15vh; } /* after 2x45 min break */
-.class.b135 { margin-top: 22.5vh; } /* after 3x45 min break */
+.class.short { height: 7.5vh; line-height: 7.5vh; } /* 75min class */
+.class.b15 { margin-top: 1.5vh; } /* 15min */
+.class.b30 { margin-top: 3.0vh; } /* 30min */
+.class.b45 { margin-top: 4.5vh; } /* 45min */
+.class.b60 { margin-top: 6.0vh; } /* 60min */
+.class.b75 { margin-top: 7.5vh; } /* 75min */
+.class.b90 { margin-top: 9.0vh; } /* 90min */
+.class.b135 { margin-top: 13.5vh; } /* after 3x45 min break */
+
+.class.b60 { margin-top: 6vh; } /* 60min */
 
 .green { background-color: #2ecc71; }
 .turquoise { background-color: #1abc9c; }

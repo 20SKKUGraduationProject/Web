@@ -45,19 +45,21 @@ def userauth(id, pwd):
     return result
 
 def dashboard(request):
-    try:
-        username = request.session.get('username')
-        userNameKo = request.session.get('userNameKo')
-        print("dashboard activated!")
-        week_courses = loadTimeTable(username)
-        print(week_courses)
+    username = request.session.get('username')
+    userNameKo = request.session.get('userNameKo')
+    print("dashboard activated!")
+    week_courses = loadTimeTable(username)
+    print(week_courses)
+    if(week_courses != None):
         context = {'username': username, 'userNameKo': userNameKo, "timetable": week_courses}
-        return render(request, '../templates/dashboard.html', context)
-    except:
-        return HttpResponseRedirect('../') 
+    else:
+        context = {'username': username, 'userNameKo': userNameKo}
+    return render(request, '../templates/dashboard.html', context)
 
 def loadTimeTable(username):
     timetable = TimeTable.objects.filter(studentID=username).last()
+    if timetable == None:
+        return None
     courses = timetable.courses.split(' ')
     
     week=[[],[],[],[],[]]

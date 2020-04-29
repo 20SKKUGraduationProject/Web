@@ -3,8 +3,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/timetable.css' %}">
 </head>
 
-<body>
-    <div class="timetable_wrapper" onclick="match({{ timetable }})">
+<body onload="match({{ timetable }})">
+    <div class="timetable_wrapper">
         <div class="day time">
             <div class="day_title">Time</div>
             <div class="hour">9:00</div>
@@ -21,7 +21,7 @@
         
         <div class="day monday">
             <div class="day_title">Monday</div>
-            <div class="class b45 red" data-tooltip="SWE-2019-01">디지털논리회로</div>
+            <!-- <div class="class red" data-tooltip="SWE-2019-01">디지털논리회로</div> -->
             <!-- <div class="class b15 blue" data-tooltip="Probability and Statistics">2MPS1 [K2]</div>
             <div class="class b15 grey" data-tooltip="German">2GER1 [C1]</div>
             <div class="class short blue" data-tooltip="Additional Probability and Statistics">2MPS+ [K2]</div> -->
@@ -29,7 +29,7 @@
         
         <div class="day tuesday">
             <div class="day_title">Tuesday</div>
-            <div class="class b15 gray" data-tooltip="EEE3024-44">제어공학</div>
+            <!-- <div class="class gray" data-tooltip="EEE3024-44">제어공학</div> -->
             <!-- <div class="class b15 orange" data-tooltip="German History">2GHI1 [C0]</div>
             <div class="class b15 purple" data-tooltip="Ethics">2ETH1 [C2]</div>
             <div class="class b45 red" data-tooltip="English Language: Writing">2ELA+ [A3]</div>
@@ -38,7 +38,7 @@
         
         <div class="day wednesday">
             <div class="day_title">Wednesday</div>
-            <div class="class b45 red" data-tooltip="SWE-2019-01">디지털논리회로</div>
+            <!-- <div class="class red" data-tooltip="SWE-2019-01">디지털논리회로</div> -->
             <!-- <div class="class short spacing"></div>
             <div class="class short yellow" data-tooltip="EU Politics">2EUP1 [C0]</div>
             <div class="class b15 spacing"></div>
@@ -49,7 +49,7 @@
         
         <div class="day thursday">
             <div class="day_title">Thursday</div>
-            <div class="class b15 gray" data-tooltip="EEE3024-44">제어공학</div>
+            <!-- <div class="class gray" data-tooltip="EEE3024-44">제어공학</div> -->
             <!-- <div class="class grey" data-tooltip="German">2GER1 [C1]</div>
             <div class="class b15 blue" data-tooltip="Advanced Integral Calculus">2MIC1 [K2]</div>
             <div class="class b15 red" data-tooltip="English Literature">2ELI1 [C1]</div>
@@ -68,5 +68,4 @@
     </div>
     <script src="{% static 'js/timetable.js' %}"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="{% static 'js/timetable.js' %}"></script>
 </body>
