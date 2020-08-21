@@ -1,0 +1,669 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2020 - 17:55:47
+Django version 3.0.5, using settings 'gradproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+SWE2019-41 SWE2001-43 SWE3002-41 
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+
+empty courses!
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+SWE2001-43 SWE3003-42 SWE3002-41 
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+
+empty courses!
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+SWE3037-41 소프트웨어현장실습1
+Software Field Training Program 1
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+ICE2005-46 SWE2021-41 SWE2001-41 SWE3002-41 
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+None
+SWE2001-43 SWE3003-42 SWE3002-41 
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2021-41 오픈소스소프트웨어실습
+Open Source Software Practice
+SWE2001-41 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['10:30', '11:45', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 375.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [], [['09:00', '10:15', 'SWE2001-41', '시스템프로그램\nSystem Program', '최형기', 75.0, 0]], [['18:00', '18:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 0], ['19:00', '19:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['20:00', '20:50', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 50.0, 10.0], ['21:00', '21:45', 'SWE2021-41', '오픈소스소프트웨어실습\nOpen Source Software Practice', '송상효', 45.0, 10.0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+None
+dashboard activated!
+None
+SWE2019-41 SWE2001-43 ICE3037-45 
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+None
+dashboard activated!
+None
+ICE2005-46 SWE2019-41 SWE2001-43 ICE3037-45 
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+ICE2005-46 논리회로설계실험
+Logic Design Laboratory
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-45 종합설계프로젝트
+Capstone Design
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0], ['18:00', '18:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 285.0], ['19:00', '19:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['20:00', '20:50', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 50.0, 10.0], ['21:00', '21:45', 'ICE2005-46', '논리회로설계실험\nLogic Design Laboratory', '이윤명', 45.0, 10.0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 0], ['13:30', '14:45', 'ICE3037-45', '종합설계프로젝트\nCapstone Design', '유재천', 75.0, 15.0]]]
+dashboard activated!
+None
+SWE2001-43 ICE3037-43 SWE3049-41 
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+ICE3037-43 종합설계프로젝트
+Capstone Design
+SWE3049-41 빅데이터분석방법론
+Introduction to Big Data Analytics
+[[], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['18:00', '19:15', 'ICE3037-43', '종합설계프로젝트\nCapstone Design', '양영구', 75.0, 0], ['19:30', '20:45', 'ICE3037-43', '종합설계프로젝트\nCapstone Design', '양영구', 75.0, 15.0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['12:00', '13:15', 'SWE3049-41', '빅데이터분석방법론\nIntroduction to Big Data Analytics', '황지영', 75.0, 0], ['13:30', '14:45', 'SWE3049-41', '빅데이터분석방법론\nIntroduction to Big Data Analytics', '황지영', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2001-43 시스템프로그램
+System Program
+SWE3003-42 데이터베이스개론
+Introduction to Database
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE3003-42', '데이터베이스개론\nIntroduction to Database', '이종욱', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+None
+SWE2019-41 SWE2001-43 SWE3002-41 
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
+dashboard activated!
+SWE2019-41 디지털논리회로
+Digital Logic Circuits
+SWE2001-43 시스템프로그램
+System Program
+SWE3002-41 소프트웨어공학개론
+Introduction to Software Engineering
+[[['12:00', '13:15', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['12:00', '13:15', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['13:30', '14:45', 'SWE2019-41', '디지털논리회로\nDigital Logic Circuits', '이칠기', 75.0, 0]], [['13:30', '14:45', 'SWE2001-43', '시스템프로그램\nSystem Program', '엄영익', 75.0, 0]], [['15:00', '16:15', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 0], ['16:30', '17:45', 'SWE3002-41', '소프트웨어공학개론\nIntroduction to Software Engineering', '이은석', 75.0, 15.0]]]
